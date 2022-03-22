@@ -1,0 +1,114 @@
+body {
+  font-family: "Lucida Sans", sans-serif;
+  background-color: rosybrown;
+}
+
+.max-width-1024{
+  max-width: 1024px;
+}
+
+header, footer {
+  background-color: rgb(158, 101, 101);
+}
+
+header p {
+  color: rgb(61, 16, 16);
+}
+
+h1 {
+  color: #f3e1e1;
+  font-size: 40px;
+}
+
+nav a, .btn-light {
+  background-color: #f3e1e1;
+  color: rgb(138, 80, 80);
+  font-size: 18px;
+}
+
+nav a:hover, .btn-light:hover {
+  background-color: #fff;
+  color: rgb(138, 80, 80);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: rgb(177, 104, 104);
+  color: #ffeaea;
+}
+
+.blog-post-title {
+  font-size: 24px;
+}
+
+.blog-post-meta {
+  font-size: 13px;
+}
+
+article a {
+  color: #fff;
+}
+
+aside {
+  background-color: #c99797;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.card-title {
+  background-color: rgb(177, 104, 104);
+  color: #f3e1e1;
+}
+
+.card-subtitle, .card-text, .card-link {
+  color: rgb(100, 41, 41);
+  font-size: 15px;
+}
+
+.social {
+  width: 50px;
+  opacity: 0.7;
+}
+
+.social:hover {
+  opacity: 1;
+}
+
+input[type=text], input[type=email], placeholder {
+  background-color: #f3e1e1;
+  color: rgb(100, 41, 41);
+}
+
+.btn {
+  background-color: rgb(100, 41, 41);
+  color: #f3e1e1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f3e1e1;
+  color: rgb(100, 41, 41);
+}
+
+footer p {
+  color: #f3e1e1;
+  font-size: 19px;
+}
+
+.copyright {
+  background-color: #f3e1e1;
+}
+
+.copyright p, a, a:hover {
+  color: rgb(100, 41, 41);
+  font-size: 16px;
+}
+
+.copyright  a:hover {
+  text-decoration: none;
+}

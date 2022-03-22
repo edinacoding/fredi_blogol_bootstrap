@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frédi blogol - Bootstrap verzió</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container-lg mx-auto p-3 max-width-1024">
+    <header class="p-3 text-center">
+      <img class="img-fluid rounded-3" src="images/header_img.jpg" alt="Frédi Unatkozik Blog" />
+      <h1 class="text-uppercase my-3">Frédi írogat</h1>
+      <p>"Sokat unatkozom, úgyhogy blogolásra adtam a fejem." - Frédi</p>
+
+      <div class="pb-1">
+        <nav class="d-flex justify-content-center flex-wrap text-uppercase align-items-center">
+          <a class="px-2 py-1 mx-2" href="#">Home</a>
+          <a class="px-2 py-1 mx-2" href="#">Rólam</a>
+          <a class="px-2 py-1 mx-2" href="#">Podcast</a>
+          <a class="px-2 py-1 mx-2" href="#">Inspiráció</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="row">
+      <main class="mt-3 py-3 col-md-8">
+        <article class="blog-post">
+          <h2 class="blog-post-title">Delectus sed praesentium excepturi</h2>
+          <p class="blog-post-meta fw-bold">2021. 12. 01.</p>
+          <img class="img-fluid rounded-3" src="images/frankfurt.jpg" alt="Frankfurt" />
+          <p class="my-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            officia mollitia perferendis debitis ea. Error impedit ex,
+            perferendis pariatur in cumque maxime praesentium ea beatae harum
+            nihil deserunt eius ab aut id architecto quae dolore doloremque
+            maiores. Delectus sed praesentium excepturi quaerat, adipisci
+            sint...
+            <a href="#">Tovább olvasom</a>
+          </p>
+        </article>
+
+        <article class="blog-post">
+          <h2 class="blog-post-title">Non possimus dolorum sit similique</h2>
+          <p class="blog-post-meta fw-bold">2021. 12. 01.</p>
+          <img class="img-fluid rounded-3" src="images/mountain.jpg" alt="Mountain" />
+          <p class="my-4">
+            Qui officia mollitia similique reprehenderit obcaecati doloribus
+            natus illo, vel voluptatum fugiat nemo reiciendis pariatur quasi
+            in amet. Non possimus dolorum sit similique temporibus facilis
+            quisquam sequi ad sed magnam dignissimos, dolore expedita id
+            placeat corrupti eligendi quaerat quo vel...
+            <a href="#">Tovább olvasom</a>
+          </p>
+        </article>
+
+        <nav class="blog-pagination text-center mt-5 mb-3" aria-label="Pagination">
+          <a class="btn btn-light" href="#">Older</a>
+          <a class="btn btn-light disabled">Newer</a>
+        </nav>
+      </main>
+
+      <aside class="mt-3 p-0 m-0 pb-4 col-md-4">
+        <div class="card border-0 bg-transparent">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-uppercase text-center fs-3 pb-1 pt-2">
+              Népszerű
+            </h5>
+            <h6 class="card-subtitle mb-2 mt-3 text-center fs-5">
+              Non possimus dolorum sit similique
+            </h6>
+            <img class="card-img" src="images/bike_dog.jpg" alt="Dog" />
+            <p class="card-text my-2">
+              Autem a tempora rerum, enim id, qui distinctio perspiciatis
+              laboriosam quos provident vero quae minus ipsa. Dolorum sit...
+              <a href="#" class="card-link">Tovább olvasom</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card border-0 bg-transparent">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-uppercase text-center fs-3 pb-1 pt-2">
+              Kövess be
+            </h5>
+            <div class="d-block text-center mt-3 mb-2">
+              <a href="#"><img class="social" src="images/facebook.png" alt="Facebook" /></a>
+              <a href="#"><img class="social" src="images/instagram.png" alt="Instagram" /></a>
+              <a href="#"><img class="social" src="images/youtube.png" alt="Youtube" /></a>
+              <a href="#"><img class="social" src="images/pinterest.png" alt="Pinterest" /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border-0 bg-transparent">
+          <div class="card-body">
+            <h5 class="card-title fw-bold text-uppercase text-center fs-3 pb-1 pt-2">
+              Íratkozz fel
+            </h5>
+            <form>
+              <div class="mt-3 mb-2">
+                <input type="text" class="form-control rounded-0 border-0" id="typeName" placeholder="Név" />
+              </div>
+              <div class="mb-2">
+                <input type="email" class="form-control rounded-0 border-0" id="typeEmail" required
+                  placeholder="E-mail cím" />
+              </div>
+              <button type="submit" class="btn col-12 rounded-0 border-0">
+                Feliratkozom
+              </button>
+            </form>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="mt-3">
+      <div>
+      <p class="fw-bold text-center px-3 pt-3 pb-0">
+        Frédi, aki egyszer írásra adta a fejét, blogol.
+      </p>
+      <div class="d-block text-center">
+        <a href="#"><img class="social mx-1" src="images/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img class="social mx-1" src="images/instagram.png" alt="Instagram" /></a>
+        <a href="#"><img class="social mx-1" src="images/youtube.png" alt="Youtube" /></a>
+        <a href="#"><img class="social mx-1" src="images/pinterest.png" alt="Pinterest" /></a>
+      </div>
+
+      <div class="d-flex justify-content-center my-1 p-3">
+        <a href="#" class="link-light px-1">Rólam</a>
+        <a href="#" class="link-light px-1">Kapcsolat</a>
+        <a href="#" class="link-light px-1">Archívum</a>
+        <a href="#" class="link-light px-1">Gy. I. K.</a>
+        <a href="#" class="link-light px-1">Adatvédelem</a>
+      </div>
+
+      <div class="copyright px-3 pt-3 pb-1 text-center">
+        <p>
+          <a href="https://edina.w3spaces.com/"><b>Barabás Edina</b></a> -
+          Képek a Pixabay oldalról származnak.
+        </p>
+      </div>
+    </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
